@@ -1,0 +1,7 @@
+.alert {
+  display: block; }
+
+.social-media,
+.clock--wrapper,
+.disclaimer {
+  display: none;  }
