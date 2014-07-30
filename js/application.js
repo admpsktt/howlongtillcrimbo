@@ -32,7 +32,7 @@ var Base=function(){};Base.extend=function(e,t){"use strict";var n=Base.prototyp
 /* Custom ======================================================================================= */
 /* ============================================================================================== */
 
-$(document).ready(function() {
+$(function() {
   // Set date.
   var currentDate = new Date(),
   // Set date of Christmas.
