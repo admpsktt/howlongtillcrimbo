@@ -51,9 +51,9 @@ $(function() {
   clockElementChildren         = clockElement.children(),
   clockElementChildrenLength   = clockElementChildren.length,
   clockElementChildrenWidthSum = 0;
-  for(i = 0; i < clockElementChildrenLength; i ++) {
-    clockElementChildrenWidthSum += $(clockElementChildren[i]).outerWidth(true);
-  }
+  clockElementChildren.each(function(i, v) {
+    clockElementChildrenWidthSum += $(v).outerWidth(true);
+  })
   var clockElementChildrenWidthStr = clockElementChildrenWidthSum + 'px';
   // Set the width of the FlipClock.
   $('.clock--body').css('width', clockElementChildrenWidthStr);
