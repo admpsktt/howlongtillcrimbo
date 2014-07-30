@@ -33,6 +33,8 @@ var Base=function(){};Base.extend=function(e,t){"use strict";var n=Base.prototyp
 /* ============================================================================================== */
 
 $(function() {
+  // Be strict.
+  "use strict";
   // Set date.
   var currentDate = new Date(),
   // Set date of Christmas.
